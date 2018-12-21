@@ -2,7 +2,7 @@
 > vscode的setting有多处,包括user-settings,workspace-settings和project-settings,这里单说project的settings.json  
 > 项目文件夹下有个.vscode文件夹,里面的settings.json即project的settings.json  
 > 打开settings页面,界面右上角有{}标志,即为通过修改settins.json文件进行配置,以下以我使用的vue项目为例
-```json
+```js
 {
   //tab size
 	"editor.tabSize": 2,
@@ -31,7 +31,8 @@
 
 ```
 以上就是通过eslint进行autofix的配置,下面说一下比较简单的通过prettier进行autoformat的配置
-```json
+```js
+{
 // Set the default
  "editor.formatOnSave": false,
 // Enable per-language
