@@ -1,7 +1,9 @@
 # VSCode的setting
-> vscode的setting有多处,包括user-settings,workspace-settings和project-settings,这里单说project的settings.json  
-> 项目文件夹下有个.vscode文件夹,里面的settings.json即project的settings.json  
-> 打开settings页面,界面右上角有{}标志,即为通过修改settins.json文件进行配置,以下以我使用的vue项目为例
+> vscode的setting有多处,包括
+- user-settings(~/Library/Application Support/Code/User/settings.json)   
+- workspace-settings([YOUR PROJECT]/.vscode/settings.json)   
+> 打开settings页面,点击界面右上角{}标志,打开settings.json文件,修改后<b>重启VSCode或重载对应的插件</b>即可生效   
+以下以我使用的vue项目为例
 ```js
 {
   //tab size
