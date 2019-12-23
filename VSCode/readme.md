@@ -4,7 +4,10 @@
 - workspace-settings([YOUR PROJECT]/.vscode/settings.json)   
 > 打开settings页面,点击界面右上角{}标志,打开settings.json文件,修改后<b>重启VSCode或重载对应的插件</b>即可生效   
 以下以我使用的vue项目为例
-```js
+
+**vscode-eslint 2.0.4已更新:  
+`log:you no longer need additional configuration through VS Code's eslint.validate setting. The same is true for HTML and Vue.js files.`**
+```json
 {
   //tab size
 	"editor.tabSize": 2,
@@ -18,17 +21,7 @@
   //配置生效区域
 	"eslint.workingDirectories": [
 		"./parcel"
-	],
-  //和自动fix配合,指定对应的代码类型,如vue的代码
-	"eslint.validate": [
-		"javascript",
-		"javascriptreact",
-		"html",
-		{
-				"language": "vue",
-				"autoFix": true
-		}
-	],
+	]
 }
 
 ```
